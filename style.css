@@ -6,7 +6,7 @@
 }
 
 header {
-  background: url("../Assets/Hero-bg.png") no-repeat center center/cover;
+  background: url("./Assets/Hero-bg.png") no-repeat center center/cover;
 }
 
 
@@ -88,13 +88,10 @@ section {
 .hero-container{
     display: flex;
     justify-content: space-around;
-    background-color:#FFFFFF;
     align-items: center;
-    gap: 40px;
-    /* border-radius: 40px; */
+    gap: 30px;
     padding: 100px;
     font-size: 1.15em;
-
 }
 
 .hero-container img{
@@ -103,21 +100,18 @@ section {
     height: 330px    
 }
 
-
 .Action-Section h2{
     font-size: 42px;
     font-weight: 900;
-
 }
 
 .Action-Section p{
     font-size:small;
 }
 
-
 .productive-users {
     text-align: center;
-    margin: 0px 260px;
+    margin: 0px 200px;
     border-radius: 24px;
     background: rgba(78, 71, 255, 0.1);
 }
@@ -140,21 +134,3 @@ section {
     font-size: 80px;
     font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

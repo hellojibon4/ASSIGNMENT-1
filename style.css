@@ -150,11 +150,11 @@ section {
 .feedback-container{
     display: flex;
     gap: 20px;
-    margin: 50px 200px;
+    margin: 50px 180px;
 }
 
 .feedback-div{
-    max-width: 100%;
+    max-width: 500px;
     height: 300px;
     border: 2px solid #F2EDED;
     border-radius: 20px;
@@ -173,6 +173,7 @@ section {
     font-size: 1.6rem;
     color: var(--dark-3);
     margin-bottom: 1.4rem;
+    justify-content: left;
 }
 
 
@@ -199,4 +200,52 @@ section {
 .user-name h6 {
     color: rgb(137, 134, 122);
     font: small;
+}
+
+/* styling code for trial section */
+.trial-section {
+  text-align: center;
+  padding: 7rem;
+  background-color: white;
+  border-radius: 1.4rem;
+  -webkit-border-radius: 1.4rem;
+  -moz-border-radius: 1.4rem;
+  -ms-border-radius: 1.4rem;
+  -o-border-radius: 1.4rem;
+}
+
+.trial-section h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.trial-section p {
+  font-size: 1.2rem;
+  color:rgb(137, 134, 122) ;
+  margin-bottom: 2rem;
+}
+
+.trial-btn {
+  margin-bottom: 2rem;
+}
+
+.trial-section img {
+  border-radius: 1.4rem;
+  -webkit-border-radius: 1.4rem;
+  -moz-border-radius: 1.4rem;
+  -ms-border-radius: 1.4rem;
+  -o-border-radius: 1.4rem;
+}
+
+.trial-section{
+    text-align: center;
+    border: 1px solid #ecebe9cf;
+    background-color: #ecebe9cf;
+    margin: 0px 200px;
+    border-radius: 20px;
+}
+
+.img-style{
+    margin-top: 20px;
 }

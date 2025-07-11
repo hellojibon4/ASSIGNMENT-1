@@ -38,6 +38,11 @@ body {
   font-style: normal;
 }
 
+span{
+  color: #9403FD;
+  font-weight: bold;
+}
+
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -394,4 +399,11 @@ body {
   text-decoration: none;
   font-size: 1.6rem;
   color: var(--footer-text-c);
+}
+
+.p-2025{
+  
+  margin-top: 50px;
+  font-weight: bold;
+
 }

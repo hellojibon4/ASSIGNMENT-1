@@ -12,6 +12,11 @@ body {
   background-color: var(--body-c);
 }
 
+/* .dody-logo{
+  height: 80px;
+  width: 80px;
+} */
+
 /* theme color */
 :root {
     --body-c: #F5F8FF;
@@ -406,4 +411,9 @@ span{
   margin-top: 50px;
   font-weight: bold;
 
+}
+
+.footer-imag{
+  margin-bottom: 20px;
+  height: 80px;
 }
